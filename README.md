@@ -1,7 +1,8 @@
 # coherent_OBIS_LSLX_laser_box
 Python device adaptor: Coherent OBIS LS/LX laser box.
 ## Quick start:
-- Install the 'Coherent Connection' GUI (includes USB driver)
+- Install the 'Coherent Connection' GUI (includes USB driver).
+  - Edit the 'device exclusion list' in the GUI to stop it from spamming all the COM ports (which can upset other devices).
 - ***Shutter lasers (or otherwise make safe for laser emission)***
 - Run either the main script or the 'analog' control example.
 ## Details:
